@@ -1,0 +1,48 @@
+PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - testPod (0.1.0):
+    - AFNetworking (~> 4.0)
+    - FMDB
+    - YTKNetwork
+  - YTKNetwork (3.0.6):
+    - AFNetworking/NSURLSession (~> 4.0)
+
+DEPENDENCIES:
+  - testPod (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - FMDB
+    - YTKNetwork
+
+EXTERNAL SOURCES:
+  testPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  testPod: 3b542e1fe3033edee8f8efd5307d1f851a3287ce
+  YTKNetwork: c16be90b06be003de9e9cd0d3b187cc8eaf35c04
+
+PODFILE CHECKSUM: 46d24d667c833c8f8bf40bd6296fb014344c0e56
+
+COCOAPODS: 1.10.1

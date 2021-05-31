@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/zcx/testPod'
+  s.homepage         = 'https://github.com/a279649802/testPod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'zcx' => 'zcx@runbey.com' }
-  s.source           = { :git => 'https://github.com/zcx/testPod.git', :tag => s.version.to_s }
+  s.author           = { 'byx' => '279649802@qq.com' }
+  s.source           = { :git => 'https://github.com/a279649802/testPod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
@@ -38,5 +38,7 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'AFNetworking', '~> 4.0'
+   s.dependency 'YTKNetwork'
+   s.dependency 'FMDB'
 end
